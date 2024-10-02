@@ -295,7 +295,11 @@ body {
 
     .navbar{
       padding: 0px 25px;
+      height: 100px;
     }
 
+    .navbar.scrolled{
+      height: 95px;
+    }
 
 }
