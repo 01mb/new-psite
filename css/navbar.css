@@ -229,3 +229,73 @@ body {
 
 
 }
+
+@media only screen and (max-width: 768px) {
+    #menuicon{
+        display: block;
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .navbar.scrolled #menuicon{
+        color: black;
+    }
+
+    #crossicon{
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .navbar.scrolled #crossicon{
+        color: black;
+    }
+
+    .navbar > ul{
+        display: none;
+    }
+
+    #navbar-mobile{
+        position: fixed;
+        top: 130px;
+        border: 1px solid black;
+        width: 100%;
+        padding: 20px 80px;
+        background-color: black;
+    }
+    #navbar-mobile > ul{
+        line-height: 2.5;
+        font-size: 20px;
+    }
+
+    #navbar-mobile > ul >li >a{
+        text-decoration: none;
+        color: white;
+        list-style: none;
+    }
+
+    #navbar-mobile.scrolled{
+        top: 120px;
+    }
+
+    .submenu-mobile{
+        display: none;
+        padding-left: 30px;
+    }
+
+    .submenu-mobile > li >a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .whitelogo, .bluelogo{
+      width: 30%;
+    }
+
+    .navbar{
+      padding: 0px 25px;
+    }
+
+
+}
