@@ -258,15 +258,15 @@ body {
 
     #navbar-mobile{
         position: fixed;
-        top: 130px;
+        top: 100px;
         border: 1px solid black;
         width: 100%;
-        padding: 20px 80px;
+        padding: 20px 35px;
         background-color: black;
     }
     #navbar-mobile > ul{
         line-height: 2.5;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #navbar-mobile > ul >li >a{
@@ -276,7 +276,7 @@ body {
     }
 
     #navbar-mobile.scrolled{
-        top: 120px;
+        top: 95px;
     }
 
     .submenu-mobile{
