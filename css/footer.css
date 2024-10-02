@@ -101,7 +101,7 @@ body {
   padding: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .main-container {
     flex-direction: column;
     text-align: center;
@@ -145,5 +145,50 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .common {
+    padding: 30px 50px;
+  }
+
+  .comp-about > p {
+    font-size: 16px;
+  }
+
+  .social-links > h2 {
+    font-size: 25px;
+  }
+
+  .company > h2 {
+    font-size: 25px;
+  }
+
+  .comp-info > h2 {
+    font-size: 25px;
+  }
+
+  .company > ul > li > a {
+    font-size: 17px;
+  }
+
+  .social-links > ul {
+    font-size: 17px;
+  }
+
+  .comp-info > p {
+    font-size: 17px;
+  }
+
+  .logo-container {
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .rights-container{
+    font-size: 14px;
+  }
 }
