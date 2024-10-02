@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="fonts/Poppins-Bold.ttf" />
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+  </head>
+  <body>
+    <nav class="navbar">
+        <img class="main-logo whitelogo" src="images/logo/paymentz-logo-white.png" alt="white-paymentz-logo">
+        <img class="main-logo bluelogo" src="images/logo/paymentz-logo-blue.png" alt="white-paymentz-logo">
+
+        <div class="menu-toggles">
+            <i id="menuicon" class="fas fa-bars"></i>
+            <i id="crossicon" class="fas fa-times"></i>
+        </div>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="menu-item1">
+            <a>Solutions <i class="fas fa-chevron-circle-down"></i></a>
+            <ul class="solutions">
+              <li><a href="#"><i class="fas fa-caret-right"></i> Accept Payments</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> Pay In By Link & QR</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> Payout</a></li>
+            </ul>
+          </li>
+          <li class="menu-item2">
+            <a>Resources <i class="fas fa-chevron-circle-down"></i></a>
+            <ul class="resources">
+              <li><a href="#"><i class="fas fa-caret-right"></i> User Guide</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> Integration API's</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> Payout API's</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> Invoice API's</a></li>
+            </ul>
+          </li>
+          <li class="menu-item3">
+            <a>Company <i class="fas fa-chevron-circle-down"></i></a>
+            <ul class="company">
+              <li><a href="#"><i class="fas fa-caret-right"></i> About Us</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> Contact Us</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> Careers</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> News</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> FAQ</a></li>
+              <li><a href="#"><i class="fas fa-caret-right"></i> Raise Request</a></li>
+            </ul>
+          </li>
+          <li>
+            <a id="login-btn">Login</a>
+          </li>
+          <li>
+            <a id="sign-btn">Sign Up</a>
+          </li>
+        </ul>
+    </nav>
+
+    <nav id="navbar-mobile">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a id="solution-submenu">Solutions <i class="fas fa-chevron-circle-down"></i></a>
+                <ul class="submenu-mobile solu-visible">
+                    <li><a href=""><i class="fas fa-caret-right"></i> Accept Payments</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> Pay In By Link & QR</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> Payout</a></li>
+                </ul>
+            </li>
+            <li><a id="resources-submenu">Resources <i class="fas fa-chevron-circle-down"></i></a>
+                <ul class="submenu-mobile reso-visible">
+                    <li><a href=""><i class="fas fa-caret-right"></i> User Guide</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> Integration API's</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> Payout API's</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> Invoice API's</a></li>
+                </ul>
+            </li>
+            <li><a id="company-submenu">Company <i class="fas fa-chevron-circle-down"></i></a>
+                <ul class="submenu-mobile comp-visible">
+                    <li><a href=""><i class="fas fa-caret-right"></i> About Us</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> Contact Us</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> Careers</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> News</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> FAQ</a></li>
+                    <li><a href=""><i class="fas fa-caret-right"></i> Raise Request</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+  
+    <script src="jquery/jquery-3.7.1.js"></script>
+    <script src="script/navbar.js"></script>
+  </body>
+</html>
