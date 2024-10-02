@@ -19,6 +19,9 @@ $(document).ready(function() {
         $('#menuicon').show();
         $('#crossicon').hide();
         $('#navbar-mobile').hide();
+        $('.reso-visible').hide();
+        $('.comp-visible').hide();
+        $('.solu-visible').hide();
     })
 
     $('#solution-submenu').click(function() {
