@@ -78,6 +78,7 @@ body {
     .main{
         flex-direction: column;
         text-align: center;
+        
     }
 }
 
